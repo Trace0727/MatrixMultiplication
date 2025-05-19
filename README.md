@@ -6,10 +6,12 @@ A straightforward Java console application that demonstrates the multiplication 
 
 ## Project Structure
 
-    MatrixMultiplication/
-    ├── src/
-    │   └── MatrixMultiplication.java
-    └──
+```
+MatrixMultiplication/
+├── src/
+│   └── MatrixMultiplication.java
+└──
+```
 
 ---
 
@@ -25,6 +27,21 @@ Executes vector-matrix multiplication:
 - Uses nested loops for input and calculation
 - Demonstrates use of 1D and 2D arrays
 - Handles clean console interaction with guided prompts
+
+---
+
+## How to Run
+
+### From an IDE
+1. Open the project folder.
+2. Navigate to `MatrixMultiplication.java`.
+3. Click **Run** on the main method.
+
+### From the command line
+```bash
+javac src/MatrixMultiplication.java -d out
+java -cp out MatrixMultiplication
+```
 
 ---
 
